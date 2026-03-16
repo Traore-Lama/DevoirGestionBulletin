@@ -1,5 +1,8 @@
 package graphique.devoirgestionsbulletin;
 
+import graphique.devoirgestionsbulletin.Model.Devoir;
+import graphique.devoirgestionsbulletin.Model.Etudiant;
+import graphique.devoirgestionsbulletin.Model.Matiere;
 import javafx.collections.FXCollections;
 import javafx.scene.control.Alert;
 import javafx.event.Event;
@@ -13,9 +16,6 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.util.converter.DoubleStringConverter;
 import javafx.util.converter.IntegerStringConverter;
-import sio.gestionbulletin.Model.Devoir;
-import sio.gestionbulletin.Model.Etudiant;
-import sio.gestionbulletin.Model.Matiere;
 
 import java.net.URL;
 import java.text.DecimalFormat;
